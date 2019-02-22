@@ -1,0 +1,40 @@
+.image-editor {
+  --editor-color: #ffc600;
+  --editor-spacing: 10px;
+  --editor-blur: 10px;
+  max-width: 40vw;
+}
+
+img {
+  padding: var(--editor-spacing);
+  box-sizing: border-box;
+  background: var(--editor-color);
+  filter: blur(var(--editor-blur));
+  max-width:100%;
+  max-height:100%;
+  height: auto;
+}
+
+.reaction {
+  font-size: 30px;
+}
+
+.controls {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: var(--base);
+}
+
+.controls label {
+  color: black;
+  font-weight: 800;
+}
+
+.controls input {
+  width: 80px;
+}
+
+h2 {
+  color: #ffe482;
+  line-height: 40px;
+}
