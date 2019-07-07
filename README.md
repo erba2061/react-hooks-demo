@@ -1,4 +1,4 @@
-React Hooks `usState` & `useEffect` basic usage demonstration app. Comparing Class component and Hooked function component.
+React Hooks `useState` & `useEffect` basic usage demonstration app. Comparing Class component and Hooked function component.
 
 Try to Hook by yourself! Use ImageEditorHookStart.js and rewrite ImageEditor Class component.
 
